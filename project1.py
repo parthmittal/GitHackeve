@@ -1,7 +1,7 @@
 def fib(number_for_fibonacci):
 	# Add code here
 	a, b = 0, 1
-	for i in ranger (1, number_for_fibonacci):
+	for i in range (1, number_for_fibonacci):
 		a, b = b, a + b
 	return b
 
