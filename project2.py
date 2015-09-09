@@ -4,9 +4,11 @@ def factorial(number_for_factorial):
 
 
 def gcd(number_1, number_2):
-    # Add code here
-    return #gcd value
-
+	if number_1 < number_2:
+		number_1, number_2 = number_2, number_1
+	while number_2:
+		number_1, number_2 = number_2, number_1 % number_2 #Cute implementation of Euler's GCD Algorithm
+	return number_1
 
 def is_palindrome(string_to_check):
 	# Add code here
