@@ -2,8 +2,7 @@
 
 #takes a string s as argument and converts it from binary to decimal form
 def bin_to_dec(s):
-	
-
+	n = int(s,2)
 	return n #Number n in decimal form will be returned
 
 
