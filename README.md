@@ -9,4 +9,6 @@ Demo project to practice git commands during Hackeve
 4. Open ```skeleton.py```
 5. Start Hacking in teams of 3!!
 
+42 = 7 * 7 - 7
+
 #####  Note : Make sure that each of you take up one of the three sub questions / defined functions
