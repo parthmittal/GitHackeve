@@ -22,6 +22,6 @@ print(fib(a))
 print(is_prime(b))
 
 
-#Take input for reverse in variable c
+c = input ()
 
 print(reversed_string(c))
