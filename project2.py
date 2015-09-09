@@ -20,12 +20,12 @@ def is_palindrome(string_to_check):
 
 
 #Take input for fib in variable a
-a = int(input())
+a = int (input ())
 print(factorial(a))
 
 
-#Take input for is_prime in variable b, c
-
+b = int (input ())
+c = int (input ())
 print(gcd(b, c))
 
 
