@@ -1,10 +1,9 @@
 def fib(number_for_fibonacci):
 	# Add code here
-	a = [0,1]
-	i = 2
-	while(len(a)<number_for_fibonacci):
-		a.append(a[i-1] + a[i-2])
-	return a[number_for_fibonacci] #Fibonacci number
+	a, b = 0, 1
+	for i in range (1, number_for_fibonacci):
+		a, b = b, a + b
+	return b
 
 
 def is_prime(number_to_check):
