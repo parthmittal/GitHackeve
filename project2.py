@@ -1,6 +1,10 @@
 def factorial(number_for_factorial):
 	# Add code here
-	return #Factorial number
+	factorial = 1
+	while(number_for_factorial):
+		factorial *= number_for_factorial
+		number_for_factorial -= 1
+	return factorial#Factorial number
 
 
 def gcd(number_1, number_2):
@@ -14,8 +18,8 @@ def is_palindrome(string_to_check):
 
 
 #Take input for fib in variable a
-
-print(fib(a))
+a = int(input())
+print(factorial(a))
 
 
 #Take input for is_prime in variable b, c
