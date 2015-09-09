@@ -15,9 +15,10 @@ def dec_to_hex(n):
 
 #takes a string s as argument in hexadecimal form and returns its 1's compliment
 def hex_compliment(s):
-	
-	
-	return str1 #String str1 will be returned as 1's compliment
+	s = int (s, 16)
+	mask = (1 << s.bitlength()) - 1
+	s ^= mask
+	return dec_to_hex(s) #String str1 will be returned as 1's compliment
 
 
 
